@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>
+            
+        </title>
+        <link rel="stylesheet" href="./css/donate.css" type="text/css">
+        <script src="./js/form.js"></script>
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="topnav">
+                <div class="topnavfont">DONATETHEBLOOD</div>
+                <div class="topnavright">About us</div>
+                <div class="topnavright">Signin</div>
+                <div class="topnavright">Search</div>
+                <div class="topnavright">Donars</div>
+                <div class="topnavright">Donate</div>
+                <div class="topnavright">Home</div>
+            </div>
+           
+            <div id="headerbg">
+                <div id="interior">
+                    <div id="bottomnav">
+                        <p class="bottomnavfont">Donate</p>
+                        <hr style="width:30%;text-align:center;margin-left:410px;height:3px;background-color:white">
+                    </div>
+                </div>
+            </div>
+            <div class="form-style">
+                <h2 align="center">Sign Up</h2>
+                <hr style="width:100%;text-align:centerx;height:3px;background-color:orangered">
+                <form name="forml" method="post" action="#"  onsubmit="return fncValidate();" autocomplete="off">
+                    <table align="center" width="400" border="0">
+                    <tr>
+                        <td width="125">&nbsp;First Name:</td>>
+                        <td width="180" >
+                            <div class="input-group">
+                                <input type="text" name="fname" size="20" ">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="125">&nbsp;Last Name:</td>>
+                        <td width="180" >
+                            <div class="input-group">
+                                <input type="text" name="lname" size="20" >
+                            </div>
+                        </td>
+                    </tr>
+                    <tr><td>&nbsp;Blood Group: </td><td><div class="input-group">
+                        <select id ="select">
+                            <option value="A+">A +ve</option>
+                            <option value="B+">B +ve</option>
+                            <option value="AB+">AB +ve</option>
+                            <option value="A-">A -ve</option>
+                            <option value="AB-">AB -ve</option>
+                            <option value="A+">B -ve</option>
+                            <option value="A+">O +ve</option>
+                            <option value="A+">O -ve</option>
+                        </select></div>
+                        <tr>
+                            <td class="input-group" id="select">&nbsp;Date Of Birth</td>
+                                <td><input type="date" name="dob"  class="input-group" id="select">
+                            </td>
+                        </tr>
+                        <tr>
+                        <td id="gen">Gender:</td><td><span ><input type="radio" name="gender" value="male" class="input-group" id="select"> Male
+                        <input type="radio" name="gender" value="Female" class="input-group" id="select"> Female</span>
+                        </td></tr>
+                        <tr><td>Address:</td><td><textarea name="address" class="textarea-field"></textarea>
+                        </td></tr>
+                        <tr><td>State: </td><td><div class="input-group">
+                            <select id ="state" name="State">
+                            </select>
+                        <tr><td>City: </td><td><div class="input-group" width="120px">
+                            <select id = "city" name="City">
+                            </select>
+                        </div></td></tr>
+                    <tr>
+                    <td>&nbsp;Mobile No: </td>
+                        <td><div class = "input-group"><input type="text" name="Phone"></div></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;Email:</td>
+                        <td><div class="input-group"><input type="text" name="Email"></div></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;Password:</td>
+                        <td><div class="input-group"><input type="password" name="Password"></div></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;Confirm Password:</td>
+                        <td><div class="input-group"><input type="password" name="CnfPassword"></div></td>
+                    </tr>
+                        <td><input type="checkbox" class="input group" "></td>
+                        <tr>
+                            <td class="input-group" id="click" ><b>I agree to donate the blood and show my 
+                                Name,Contact no. and Email in Blood donars list</b>
+                            </td>
+                        </tr>
+                    </tr>
+                    <tr><td></td><td><input type="submit" name="Submit" value="Submit" class="btn">
+                    </td></tr>
+                    <tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>
