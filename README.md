@@ -25,3 +25,9 @@
 - Manage to Contact us Queries
 - Update the contact us Info
 - Admin Dashboard
+
+### Screenshots
+
+![HomePage](image.jpg)
+
+![Donors](image.jpg)
