@@ -74,3 +74,110 @@ margin-left:88px;
 .Benefits h2{
 	text-align: center;
 }
+/* ------Donars----------*/
+body{
+	margin: 0px;
+	
+}
+#container {
+	width: 100%;
+	color: white;
+	margin:0 auto;
+}
+#headerbg{
+	width:100%;
+	height:200px;
+	background-color:orangered;
+	color: palegoldenrod;
+	margin-top:16px;
+}
+#interior{
+	width:1100px;
+	margin: 0 auto;
+}
+#topnav{        /*top navbar*/
+	width:100%;
+	height:40px;
+	color:red;
+	background-color: white;
+	display: inline-block;
+}
+.topnavfont{        /*this is for the font of the top navbar*/
+	font-size: 1.25em;
+	font-family:sans-serif;
+	line-height: 40px;
+	padding-left: 15px;
+	display:inline-block;
+	margin-top: 10px;
+}
+.topnavright{       /*this is for the styling of the top right navbar*/
+	color:orangered;
+	font-size: 1.1em;
+	font-family:sans-serif;
+	line-height: 40px;
+	padding-left: 15px;
+	padding-right: 12px;
+	vertical-align:middle;
+	float:right;
+	margin-top: 10px;
+}
+.bottomnavfont{     /*this is for the styling of the Name Donate*/
+	font-size:3em;
+	line-height:1px;
+	color: #fff;
+	display:inline-block;
+	padding-left: 500px;
+	margin-top: 100px;
+}
+.back{
+	height:100%;
+	margin:0 auto;
+	padding:10px;
+	background-color: lightgray;
+}
+/*--------------signin------------*/
+/*for styling a form*/
+.form-style{    /* this name is called inside html file using class "form-style"*/
+    font-family: 'open Sans Condensed',arial, sans;
+    width:500px;
+    padding:30px;
+    background: white;
+    margin:50px auto;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+    -webkit-box-shadow:0px 0px 15px rgba(0,0,0,0.22);
+}
+/*for styling a form heading*/
+.form-style h2{      /* this name is called inside html file using <h2>*/
+    font-family: 'open Sans Condensed', sans-serif;
+    color:orangered;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 5px;
+    margin: -30px -30px 30px -30px;
+}
+.input-group{
+    margin:10px 0px 10px 0px;
+}
+/*for styling an input text field*/
+.input-group input{     /* this name is called inside html file using class"input-group"*/
+    height:30px;
+	width:500px;
+    padding:5px 10px;
+    font-size:16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn{       /* this name is called inside html file using class="btn"*/
+	width:90px;
+	height:40px;
+    font-size:15px;
+    color: white;
+    background: orangered;
+    border-radius: 5px;
+	border: none;
+	margin-left: 200px;
+}
+.btn1{
+	border-radius:16px;
+}
