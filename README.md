@@ -28,6 +28,6 @@
 
 ### Screenshots
 
-![HomePage](image.jpg)
+![HomePage](./Assets/img/Homepage1.png)
 
-![Donors](image.jpg)
+![Donors](./Assets/img/Features.png)
