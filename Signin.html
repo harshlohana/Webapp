@@ -1,62 +1,94 @@
 <html>
-<head>
-    <title> </title>
-    <link rel="stylesheet" href="./css/index.css" type="text/css">
-</head>
-<body>
-    <div id="container">
-        <div id="topnav">
-            <div class="topnavfont">DONATETHEBLOOD</div>
-            <div class ="topnavright">Donor Name</div>
-            <div class="topnavright">About us</div>
-            <div class="topnavright">Signin</div>
-            <div class="topnavright">Search</div>
-            <div class="topnavright">Donars</div>
-            <div class="topnavright">Donate</div>
-            <div class="topnavright">Home</div>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/index.css" type="text/css">
+        <link rel="stylesheet" href="./css/donate.css" type="text/css">
+        <script src="./js/form.js"></script>
+    </head>
+
+    <body>
+
+
+      <!-- navbar code -->
+      	<nav id="mainNav" class="navbar fixed-top navbar-default navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.php">DONATETHEBLOOD</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+          </ul>
+
+          <ul class="navbar-nav form-inline my-2 my-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+      	  <li class="nav-item">
+              <a class="nav-link" href="Donate.html">Donate</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Donors.html">Donors</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="search.php">Search</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="signin.php">Signin</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.php">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Donor Name<!-- Donor Name -->
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                <a class="dropdown-item" href="user/index.php"><i class="fa fa-user" aria-hidden="true"></i>Profile</a>
+
+                <a class="dropdown-item" href="user/update.php"><i class="fa fa-edit" aria-hidden="true"></i>
+      Update Profile</a>
+
+                <a class="dropdown-item" href="#">
+                <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+
+      Logout</a>
+                </div>
+            </li>
+
+
+          </ul>
         </div>
-       
-        <div id="headerbg">
-            <div id="interior">
-                <div id="bottomnav">
-                    <p class="bottomnavfont">Donate</p>
-                    <hr style="width:30%;text-align:center;margin-left:410px;height:3px;background-color:white">
+      </nav>
+      <!-- navbar code end-->
+
+
+
+
+            <div id="headerbg">
+                <div id="interior">
+                    <div id="bottomnav">
+                        <p class="bottomnavfont">Donate</p>
+                        <hr style="width:30%;text-align:center;margin-left:410px;height:3px;background-color:white">
+                    </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="back">
-        <div class="form-style">
-            <h2 align="center">Sign In</h2>
-            <hr style="width:100%;text-align:centerx;height:3px;background-color:orangered">
-            <form name="forml" method="post" action="#"  onsubmit="return sgnValidate();" autocomplete="off">
-                <table align="center" width="400" border="0">
-                <tr>
-                    <td width="125">&nbsp;Email</td>>
-                    <tr>
-                    <td width="180" >
-                        <div class="input-group">
-                            <input type="text" name="fname" size="20" required>
-                        </div>
-                    </td>
-                    </tr>
-                </tr>
-                <tr>
-                    <td width="125">&nbsp;Password</td>
-                    <tr>
-                    <td width="180" >
-                        <div class="input-group">
-                            <input type="text" name="lname" size="20" >
-                        </div>
-                    </td>
-                    </tr>
-                </tr>
-                <tr><td>
-                    <input type="submit" name="Submit" value="SignIn" class="btn btn1">
-                </td></tr>
-                </table>
-            </form>
-        </div>
-        </div>
-    </div>
+
+
 </body>
 </html>
